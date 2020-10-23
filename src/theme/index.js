@@ -3,32 +3,20 @@ export default {
 	"breakpoints": {
 		"sm": [
 			{
-				"type": "min-width",
-				"value": "540"
+				"type": "max-width",
+				"value": 576
 			}
 		],
 		"md": [
 			{
-				"type": "min-width",
-				"value": "768"
+				"type": "max-width",
+				"value": 768
 			}
 		],
 		"lg": [
 			{
-				"type": "min-width",
-				"value": "992"
-			}
-		],
-		"xs": [
-			{
-				"type": "min-width",
-				"value": "320"
-			}
-		],
-		"xl": [
-			{
-				"type": "min-width",
-				"value": "1200"
+				"type": "max-width",
+				"value": 992
 			}
 		]
 	},
@@ -59,7 +47,8 @@ export default {
 		"mono": "Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace",
 		"serifTimes": "Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif",
 		"serifGeorgia": "Constantia, 'Lucida Bright', Lucidabright, 'Lucida Serif', Lucida, 'DejaVu Serif', 'Bitstream Vera Serif', 'Liberation Serif', Georgia, serif",
-		"serifGaramond": "'Palatino Linotype', Palatino, Palladio, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow', 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif"
+		"serifGaramond": "'Palatino Linotype', Palatino, Palladio, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow', 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif",
+		"googleMontserrat": "Montserrat, sans-serif"
 	},
 	"font": {
 		"headline1": "normal 900 72px/1.2 --fontFamily-sans",
@@ -76,7 +65,8 @@ export default {
 	},
 	"background": {
 		"primaryGradient": "linear-gradient(180deg, --color-primary, transparent) no-repeat 0 0",
-		"secondaryGradient": "linear-gradient(180deg, --color-secondary, transparent) no-repeat 0 0"
+		"secondaryGradient": "linear-gradient(180deg, --color-secondary, transparent) no-repeat 0 0",
+		"hhj": "linear-gradient(0deg,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%) 0% 0%"
 	},
 	"transform": {
 		"rotate90": "rotate(90deg)",
@@ -163,5 +153,34 @@ export default {
 			}
 		}
 	},
-	"version": 22
+	"fonts": {
+		"Montserrat": {
+			"family": "Montserrat",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"100",
+					"100italic",
+					"200",
+					"200italic",
+					"300",
+					"300italic",
+					"regular",
+					"italic",
+					"500",
+					"500italic",
+					"600",
+					"600italic",
+					"700",
+					"700italic",
+					"800",
+					"800italic",
+					"900",
+					"900italic"
+				]
+			}
+		}
+	},
+	"version": 6
 }
